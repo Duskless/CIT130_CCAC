@@ -14,17 +14,17 @@ public class PrinterLand {
     public static void main(String[] args) {
         System.out.println("Box:");
         BoxPrinter bp = new LoopingBoxer();
-        bp.printABox(12);
+        bp.printABox(145);
         
         System.out.println("");
         System.out.println("Pyramid");
         PyramidPrinter pp = new CoolShapeMaker();
-        pp.printAPyramid(45);
+        pp.printAPyramid(145);
         
         System.out.println("");
         System.out.println("Parrallellogram");
         ParallellogramPrinter pP = new LoopingParallellogramer();
-        pP.printAParallellogram(13,22);
+        pP.printAParallellogram(54,145);
     }
     
 }
